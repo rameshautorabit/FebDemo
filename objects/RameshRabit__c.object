@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>TestField2__c</fullName>
+        <description>test</description>
+        <externalId>false</externalId>
+        <label>TestField2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Testfield1__c</fullName>
+        <description>Final Desription test Testfield1</description>
+        <externalId>false</externalId>
+        <label>Testfield1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+</CustomObject>
