@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Testams1</members>
+        <members>Testams2</members>
+        <members>Testams3</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Activity.AllActivities</members>
+        <members>Activity.MyActivities</members>
+        <members>Activity.TodaysTasks</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <name>Profile</name>
+    </types>
     <version>35.0</version>
-    <types>
-        <members>RameshRabit__c.TestField2__c</members>
-        <members>RameshRabit__c.Testfield1__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>CEO</members>
-        <members>CFO</members>
-        <name>Role</name>
-    </types>
 </Package>
