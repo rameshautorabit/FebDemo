@@ -60,6 +60,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AccountCreation2</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CreatingAccount100</apexClass>
         <enabled>true</enabled>
     </classAccesses>

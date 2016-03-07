@@ -1,4 +1,4 @@
-public Class AccountCreation1
+public Class AccountCreation2
 {
 //test
 public Account createAccount(String name)  
