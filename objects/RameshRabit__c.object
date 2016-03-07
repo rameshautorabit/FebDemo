@@ -47,7 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>In Autorabit Testing purpose created.</description>
+    <description>In Autorabit Testing purpose created new checjk.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -77,7 +77,7 @@
     </fields>
     <fields>
         <fullName>marchField__c</fullName>
-        <description>testing in 7 march</description>
+        <description>New Test to display in org</description>
         <externalId>false</externalId>
         <label>marchField</label>
         <trackTrending>false</trackTrending>
