@@ -68,7 +68,7 @@
     </fields>
     <fields>
         <fullName>Testfield1__c</fullName>
-        <description>Final Desription test Testfield1</description>
+        <description>Testing in March 7</description>
         <externalId>false</externalId>
         <label>Testfield1</label>
         <required>false</required>
