@@ -58,7 +58,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>SubField1__c</fullName>
-        <description>test1</description>
+        <description>Testing in March 07</description>
         <externalId>false</externalId>
         <label>SubField1</label>
         <trackTrending>false</trackTrending>
