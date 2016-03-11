@@ -47,7 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>test</description>
+    <description>test on March 08</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -61,8 +61,9 @@
         <description>Testing in March 07</description>
         <externalId>false</externalId>
         <label>SubField1</label>
+        <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
+        <type>Date</type>
     </fields>
     <label>TestNewFebDemo</label>
     <nameField>

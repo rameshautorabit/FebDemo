@@ -1192,6 +1192,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>RameshRabit__c.AprilFool__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>RameshRabit__c.TestField2__c</field>
         <readable>false</readable>
     </fieldPermissions>
