@@ -2,6 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>35.0</version>
     <types>
+        <members>ALMAccount</members>
+        <members>ALMAccount1</members>
         <members>AccountCreation1</members>
         <members>AccountCreation2</members>
         <members>CreatingAccount100</members>
