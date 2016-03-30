@@ -81,6 +81,7 @@
         <members>RameshRabit__c.Testfield1__c</members>
         <members>RameshRabit__c.marchField__c</members>
         <members>TestNewFebDemo__c.SubField1__c</members>
+        <members>Test__c.Hiring_Manager__c</members>
         <name>CustomField</name>
     </types>
     <types>
