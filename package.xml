@@ -3,6 +3,8 @@
     <types>
         <members>ALMAccount</members>
         <members>ALMAccount1</members>
+        <members>ALMTest1</members>
+        <members>ALMTest2</members>
         <members>AccountCreation1</members>
         <members>AccountCreation2</members>
         <members>CreatingAccount100</members>
@@ -90,6 +92,7 @@
         <name>CustomLabels</name>
     </types>
     <types>
+        <members>ALMsample__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
