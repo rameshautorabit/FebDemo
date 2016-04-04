@@ -118,6 +118,7 @@
         <members>Idea</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
+        <members>LoginPage__c</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
