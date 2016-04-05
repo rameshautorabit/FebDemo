@@ -1,10 +1,10 @@
 public Class ALMTest1
 {
-//Test in March16
+//Test ALM April 05
 public Account createAccount(String name)  
 {
-Account acc1= new Account();
-acc1.Name = name;
-return acc1;
+Account acc2= new Account();
+acc2.Name = name;
+return acc2;
 }
 }
