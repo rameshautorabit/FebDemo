@@ -1,11 +1,11 @@
 public Class CreatingAccount25
 {
-//testing
 public Account createAccount(String name,String accNum)  
 {
-Account acc50= new Account();
-acc50.Name = name;
-acc50.AccountNumber = accNum;
-return acc50;
+//modified the object variable name.
+Account acc25= new Account();
+acc25.Name = name;
+acc25.AccountNumber = accNum;
+return acc25;
 }
 }
