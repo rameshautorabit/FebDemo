@@ -47,7 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Test ALM</description>
+    <description>Test ALM object</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -57,9 +57,9 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>WorkItemNum__c</fullName>
-        <description>verify</description>
+        <description>verifyin commit3</description>
         <externalId>false</externalId>
+        <fullName>WorkItemNum__c</fullName>
         <label>WorkItemNum</label>
         <trackTrending>false</trackTrending>
         <type>AutoNumber</type>

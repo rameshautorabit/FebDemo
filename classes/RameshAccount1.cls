@@ -1,10 +1,9 @@
 public Class RameshAccount1
 {
-//Modifying the comment test now
-public Account createAccount(String name)  
+public Account createAccount(String names)  
 {
 Account acc= new Account();
-acc.Name = name;
+acc.Name = names;
 return acc;
 }
 }
