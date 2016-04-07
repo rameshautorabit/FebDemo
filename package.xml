@@ -4,6 +4,7 @@
         <members>ALMAccount</members>
         <members>ALMAccount1</members>
         <members>ALMBuild1</members>
+        <members>ALMBuild2</members>
         <members>ALMTest1</members>
         <members>ALMTest2</members>
         <members>AccountCreation1</members>
@@ -94,6 +95,7 @@
         <name>CustomLabels</name>
     </types>
     <types>
+        <members>ALMBuildObj2__c</members>
         <members>ALMBuildObj__c</members>
         <members>ALMsample__c</members>
         <members>Account</members>
