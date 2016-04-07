@@ -5,6 +5,7 @@
         <members>ALMAccount1</members>
         <members>ALMBuild1</members>
         <members>ALMBuild2</members>
+        <members>ALMBuild3</members>
         <members>ALMTest1</members>
         <members>ALMTest2</members>
         <members>AccountCreation1</members>
@@ -96,6 +97,7 @@
     </types>
     <types>
         <members>ALMBuildObj2__c</members>
+        <members>ALMBuildObj3__c</members>
         <members>ALMBuildObj__c</members>
         <members>ALMsample__c</members>
         <members>Account</members>
