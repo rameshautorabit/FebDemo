@@ -18,6 +18,8 @@
         <members>CreatingAccount11</members>
         <members>CreatingAccount18</members>
         <members>CreatingAccount25</members>
+        <members>DeployTest1</members>
+        <members>DeployTest2</members>
         <members>FirstClass1</members>
         <members>RameshAccount1</members>
         <name>ApexClass</name>
@@ -434,5 +436,5 @@
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>
-    <version>35.0</version>
+    <version>36.0</version>
 </Package>
