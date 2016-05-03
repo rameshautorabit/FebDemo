@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>36.0</version>
     <types>
         <members>ALMAccount</members>
         <members>ALMAccount1</members>
@@ -14,6 +15,8 @@
         <members>ALMTest2</members>
         <members>AccountCreation1</members>
         <members>AccountCreation2</members>
+        <members>CancelDeploy1</members>
+        <members>CancelDeploy2</members>
         <members>CreatingAccount100</members>
         <members>CreatingAccount11</members>
         <members>CreatingAccount18</members>
@@ -436,5 +439,4 @@
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>
-    <version>36.0</version>
 </Package>
