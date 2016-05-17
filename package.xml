@@ -28,6 +28,9 @@
         <members>RameshAccount1</members>
         <members>SaiMay13Test1</members>
         <members>SaiMay13Test2</members>
+        <members>agf__ADM_Application</members>
+        <members>agf__ADM_ApplicationApprover</members>
+        <members>agf__ADM_ApplicationApproverTests</members>
         <name>ApexClass</name>
     </types>
     <types>
