@@ -34,6 +34,7 @@
         <members>agf__ADM_ApplicationApproverTests</members>
         <members>agf__ADM_ApplicationApprover_TriggerTest</members>
         <members>agf__ADM_ApplicationException</members>
+        <members>agf__ADM_DevelopmentCycleUtils</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -76,6 +77,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>ALMsample__c.WorkItemNum__c</members>
         <members>Account.Active__c</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>

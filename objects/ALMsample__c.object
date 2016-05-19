@@ -57,9 +57,9 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>WorkItemNum__c</fullName>
         <description>verifyin commit3</description>
         <externalId>false</externalId>
-        <fullName>WorkItemNum__c</fullName>
         <label>WorkItemNum</label>
         <trackTrending>false</trackTrending>
         <type>AutoNumber</type>
