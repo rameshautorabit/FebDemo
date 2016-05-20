@@ -25,6 +25,9 @@
         <members>DeployTest2</members>
         <members>DeployTest3</members>
         <members>FirstClass1</members>
+        <members>LC_Rss__AttribItem</members>
+        <members>LC_Rss__RSSViewController</members>
+        <members>LC_Rss__RSSViewControllerTest</members>
         <members>RameshAccount1</members>
         <members>SaiMay13Test1</members>
         <members>SaiMay13Test2</members>
