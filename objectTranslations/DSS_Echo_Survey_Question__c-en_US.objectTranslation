@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DSS Echo Survey Question</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DSS Echo Survey Questions</value>
+    </caseValues>
+    <fields>
+        <label><!-- DSS Echo Survey --></label>
+        <name>DSS_Echo_Survey__c</name>
+        <relationshipLabel><!-- DSS Echo Survey Questions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Echo Message ID --></label>
+        <name>Echo_Message_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Answer --></label>
+        <name>Survey_Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Metric Name --></label>
+        <name>Survey_Metric_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,11 @@
+﻿<!-- 
+ @Developer Name: Roshan Pillai 
+ @Page Name     : SL_Intranet_SiteTemplate
+ @JIRA Ticket   : Socint-15
+ @Created on    : 08/Feb/13
+ @Modified by   : SL
+ @Description   : This page is used as a Template page for Intranet Application. 
+-->
+
+<apex:page id="SL_Intranet_SiteTemplate" showheader="false" standardstylesheets="false" cache="false">
+</apex:page>

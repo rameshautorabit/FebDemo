@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>To get the Salesforce Base URL for Chatter rest API</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>SLSI__URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Salesforce Base URL - Deprecate</label>
+    <visibility>Public</visibility>
+</CustomObject>

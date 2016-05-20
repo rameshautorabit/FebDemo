@@ -1,0 +1,10 @@
+<!--
+* @PageName      : SL_Intranet_StandardChatter
+* @JIRATicket    : 
+* @CreatedOn     : 
+* @ModifiedBy    : SL
+* @Description   : 
+-->
+
+<apex:page showheader="false" sideBar="false" standardstylesheets="true">
+</apex:page>

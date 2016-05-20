@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>SLSI__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- For All Departments --></label>
+        <name>SLSI__For_All_Departments__c</name>
+    </fields>
+    <fields>
+        <label><!-- For All Offices --></label>
+        <name>SLSI__For_All_Offices__c</name>
+    </fields>
+    <fields>
+        <label><!-- IntranetApp Departments --></label>
+        <name>SLSI__IntranetApp_Departments__c</name>
+    </fields>
+    <fields>
+        <label><!-- IntranetApp Offices --></label>
+        <name>SLSI__IntranetApp_Offices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Select Departments --></label>
+        <name>SLSI__Select_Departments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Select Offices --></label>
+        <name>SLSI__Select_Offices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Department Ids --></label>
+        <name>SLSI__Selected_Department_Ids__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Office Ids --></label>
+        <name>SLSI__Selected_Office_Ids__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>SLSI__URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Intranet App Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Office and Department Information --></label>
+            <section>Office and Department Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

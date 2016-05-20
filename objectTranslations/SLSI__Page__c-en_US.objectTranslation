@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Id --></label>
+        <name>SLSI__Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- LayoutType --></label>
+        <name>SLSI__LayoutType__c</name>
+        <picklistValues>
+            <masterLabel>1 Column Layout Page</masterLabel>
+            <translation><!-- 1 Column Layout Page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Column Layout Half Page</masterLabel>
+            <translation><!-- 2 Column Layout Half Page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Column Layout Left Main Page</masterLabel>
+            <translation><!-- 2 Column Layout Left Main Page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Column Layout Right Main Page</masterLabel>
+            <translation><!-- 2 Column Layout Right Main Page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Column Layout Page</masterLabel>
+            <translation><!-- 3 Column Layout Page --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>SLSI__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Console --></label>
+        <name>SLSI__Target_Console__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desktop</masterLabel>
+            <translation><!-- Desktop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Page Name must be unique --></errorMessage>
+        <name>SLSI__Unique_Name</name>
+    </validationRules>
+</CustomObjectTranslation>

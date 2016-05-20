@@ -475,7 +475,7 @@
             <operation>equals</operation>
             <value>TODAY</value>
         </filters>
-        <label>Today&apos;s Leads</label>
+        <label>Today's Leads</label>
     </listViews>
     <listViews>
         <fullName>ViewCustom1</fullName>
@@ -524,4 +524,25 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
+    <webLinks>
+        <fullName>BLND_FormFactoryLeadLink</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>550</height>
+        <linkType>url</linkType>
+        <masterLabel>FormFactory Lead Link</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>https://www.dreamfactory.net/sforce/formfactory/formfactory.html? 
+sforce_session_id={!API.Session_ID}&amp; 
+sforce_server_url={!API.Partner_Server_URL_120}&amp; 
+sforce_user_name={!User.Username}&amp; 
+sforce_full_name={!User.Name}&amp; 
+sforce_user_id={!User.Id}&amp; 
+custom_link_name=FormFactory Form Name&amp; 
+myaccount={!Account.Id}&amp; 
+mylead={!Lead.Id}&amp; 
+myuser={!User.Id}</url>
+    </webLinks>
 </CustomObject>

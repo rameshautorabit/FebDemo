@@ -1,0 +1,11 @@
+<!--
+* @PageName      : SL_IntranetOffices
+* @JIRATicket    : 
+* @CreatedOn     : 
+* @ModifiedBy    : SL
+* @Description   : This page is used to Display Intranet offices records for Mobile view
+-->
+
+<apex:page showheader="false" sidebar="false" standardstylesheets="false" cache="false">
+
+</apex:page>

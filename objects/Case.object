@@ -62,6 +62,36 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
+    <fieldSets>
+        <fullName>WCCase</fullName>
+        <description>WaterCooler Quick Create</description>
+        <displayedFields>
+            <field>RecordTypeId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Subject</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>WCCase</label>
+    </fieldSets>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -417,6 +447,208 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>Account_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Type</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_annual_JV_revenue_SM__c</fullName>
+        <externalId>false</externalId>
+        <label>Account annual JV revenue (SM)</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Agent_s_Contact_Information__c</fullName>
+        <description>Email of Phone Number to contact Agenct</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email of Phone Number to contact Agent</inlineHelpText>
+        <label>Agent's Contact Information</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Agents_Name__c</fullName>
+        <description>Agent's Name</description>
+        <externalId>false</externalId>
+        <label>Agent's Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>In Renewal/RFP?</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Current_Points_per_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Points per Quarter</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Home_Corp_Acct_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Home/Corp Acct ID</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Instructions__c</fullName>
+        <defaultValue>"Please include the following information in the below description field"
+&amp;BR()
+&amp;" "&amp;"***Key markets and top opportunities"&amp;BR()
+&amp;" "&amp;"***OA competitive information (i.e. What exceptions does OA offer this account?)"&amp;BR()
+&amp;" "&amp;"***Any terms/metrics you would like to tie to earning points"&amp;BR()
+&amp;" "&amp;"***Any other account information that would be beneficial"&amp;BR()</defaultValue>
+        <description>ASRP/Edge Points Request - Process Instructions</description>
+        <externalId>false</externalId>
+        <label>Process Instructions</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Manager_s_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Manager's Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Process_Instructions__c</fullName>
+        <defaultValue>"EXITING EMPLOYEES"&amp;BR()
+&amp;"Description information box below must include the following information for Exiting users"&amp;BR()
+&amp;" "&amp;"****Existing User Full Name"&amp;BR()
+&amp;" "&amp;"****Email Address"&amp;BR()
+&amp;" "&amp;"****Current Dept #"&amp;BR()
+&amp;" "&amp;"****Current City Code"&amp;BR()
+&amp;" "&amp;"****Employee Title"&amp;BR()
+&amp;" "&amp;"****PPR ID"&amp;BR()
+&amp;" "&amp;"****Effective End Date"&amp;BR()
+&amp;" "&amp;"****Leaving Dept or Leaving Delta"&amp;BR()
+&amp;" "&amp;"****Manager Name"&amp;BR()
+&amp;" "&amp;"****Team (i.e. GBA) "&amp;BR()
+&amp;" "&amp;"****Portfolio type (i.e. agency)"&amp;BR()
+&amp;BR()
+&amp;" "&amp;"/////TIP: Cut and paste the text above in the description box for ease of entry/////"&amp;BR()</defaultValue>
+        <externalId>false</externalId>
+        <label>Process Instructions</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Renewal_RFP_date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If in renewal, please enter renewal effective date
+If in RFP, please enter RFP due date</inlineHelpText>
+        <label>Renewal/RFP date:</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Points_per_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Points per Quarter</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YoY_Gap__c</fullName>
+        <externalId>false</externalId>
+        <label>YoY Gap</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YoY_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>YoY Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
         <columns>CASES.CASE_NUMBER</columns>
@@ -459,6 +691,348 @@
         </filters>
         <label>My Open Cases</label>
     </listViews>
+    <listViews>
+        <fullName>Waiver_Pilot_Support_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Waiver Pilot Support</label>
+        <queue>Waiver_Pilot_Support</queue>
+        <sharedTo>
+            <allInternalUsers/>
+        </sharedTo>
+    </listViews>
+    <recordTypes>
+        <fullName>Waivers_Pilot_Support</fullName>
+        <active>true</active>
+        <businessProcess>Application Support</businessProcess>
+        <label>Waivers Pilot Support</label>
+        <picklistValues>
+            <picklist>Contract_Status__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>BiWeekly Call with Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corporate SD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In-Person</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Management Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Market Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SFDC</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions provided unclear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training not offered</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Access</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account Duplication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Account%2FLogin Creation Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biweekly Activity Report %28BAR%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CDS Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chatter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Certificate Usage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Close Certificates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Content%2FLibraries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Email issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dashboard Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Discrepancy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Moves%2C Merges%2C %26 Acquisitions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Problems%2FDiscreprancies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Status%2FData Chase</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data backup</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diamond Medallion Requests</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enhancement  Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exiting employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exiting employee - OA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fulfillment Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>General Question</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyperion Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyperion Reporting Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Laptop Appointment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miscellaneous request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Network Drives</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Employee - OA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PPR Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Point Credit%2FDebit Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Printers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Query Assistance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Redemption Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Enhancement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Requests</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Expense Reporting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sky Clubs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sky Partner Review Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SkyClub Membership Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Software Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Status Match exemptions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>System Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>System Error%2FPerformance Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>System Performance Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Template Creation Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usability Issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Creation%2FModification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNCI Bank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eNCI Issues</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
@@ -499,5 +1073,42 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>https://na1.salesforce.com/opp/oppedit.jsp?accid={!Account_ID}&amp;opp3=Up-sell+/+Cross-sell&amp;opp5=Existing+Customer&amp;opp6=Customer+Support</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Agency_ASRP_DeltaEdge_Pts_Request</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Agency ASRP/DeltaEdge Pts Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/500/e?def_account_id={!Account.Id}&amp;00N18000000Kfm2={!Account.RecordType}&amp;00N18000000KfmW={! Account.Corporate_Account_ID__c}&amp;00N18000000Kfmq={! Account.BAR_Annualized_Flown_Revenue__c}&amp;RecordType=012700000005wwF</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Corp_ASRP_Edge_Pts_Request</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Corp ASRP/Edge Pts Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/500/e?def_account_id={!Account.Id}&amp;00N18000000Kfm2={!Account.RecordType}&amp;00N18000000KfmW={! Account.Corporate_Account_ID__c }&amp;00N18000000Kfmq={!Account.Annual_JV_Spend__c}&amp;RecordType=012700000005wwF</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Waivers_Pilot_Support</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Waivers Pilot Support</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/500/e?Name={!Case.CaseNumber}&amp;cas4_lkid={!Account.Id}&amp;00N70000002QYMu={!Account.IATA_Home__c}
+&amp;RecordType=012180000004Rnm&amp;retURL=%2F{!Case.Id}+</url>
     </webLinks>
 </CustomObject>

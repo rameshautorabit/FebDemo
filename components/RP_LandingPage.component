@@ -1,0 +1,181 @@
+<apex:component controller="RP_LandingPageController">
+    <apex:attribute name="key" type="String"  required="true" description="" assignTo="{!LandingPageKey}" />
+
+    <apex:stylesheet value="//fonts.googleapis.com/css?family=Open+Sans:600,400,300" />
+    <apex:stylesheet value="{!URLFOR($Resource.rpLandingPage, 'css/jquery-ui-1.10.4.custom.min.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.rpLandingPage, 'css/rp_style.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.rpLandingPage, 'css/rp_style.status-match.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.rpLandingPage, 'css/rp_style.waivers.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.rpLandingPage, 'css/rp_style.list.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.rpLandingPage, 'css/rp_style.account-logo-list.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.rpLandingPage, 'css/rp_org.chart.css')}" />
+    
+    <apex:stylesheet value="{!URLFOR($Resource.rpLandingPage, 'css/font-awesome.min.css')}" />
+    <apex:stylesheet value="{!URLFOR($Page.RP_ContentBlockDynamicStyle)}?isViewMorePage={!IsViewMorePage}" />
+
+    <div class="rpPage">
+        <div id="rpWelcome" style="background-image:url({!LandingPage.Picture__c})" class="rpTabCount{!IF(IsViewMorePage, 1, LandingPage.Tab_Count__c)}">
+            <h1 class="rpWelcome">{!LandingPage.Welcome_Message__c}</h1>
+
+            <apex:outputPanel layout="none" rendered="{!LandingPage.Show_Date_And_Time__c}">
+            <div class="rpDateTab">
+                <div class="bigtext">
+                    <p class="rpDateTabMonth">
+                        <apex:outputText value="{0,date,MMMM}">
+                            <apex:param value="{!TODAY()}" /> 
+                        </apex:outputText>
+                    </p>
+                    <p class="rpDateTabDate">{!DAY(TODAY())}</p> 
+                    <p class="rpDateTabFirstName">{!$User.FirstName}</p>
+                    <p class="rpDateTabLastName">{!$User.LastName}</p>
+                </div>
+            </div>
+            </apex:outputPanel>
+            <br clear="all"/>
+            <apex:outputPanel layout="none" rendered="{!OR(IsViewMorePage, LandingPage.Tab_Count__c > 0)}">
+            <div class="rpContentBlock rpTabBlock {!IF(IsViewMorePage, 'rpViewMoreBlock', null)}">
+                                 
+                <div class="rpContentBlockTitle" id="activeTabBlock" data-blockicon="{!DefaultTabBlock.Icon__c}">
+                    <table border="0" cellpadding="0" cellspacing="0"><tr>
+                    <td class="rpHeaderIcon"><i class="fa fa-{!DefaultTabBlock.Icon__c} fa-fw block-icon"></i></td>
+                    <td><h2 class="rpContentBlockTitleH2">{!DefaultTabBlock.Name}</h2></td>
+                    <td><div class="rpTabBlockTitleBarOptions rphide"><span>&nbsp;</span></div></td></tr></table>
+                </div>
+                
+                <ul class="rpTabRow count{!IF(IsViewMorePage, 1, LandingPage.Tab_Count__c)}">
+                    <apex:variable var="tabBlockCount" value="{!1}"/>
+                    <apex:repeat value="{!TabBlocks}" var="tabBlockKey">
+                        <li data-block="{!TabBlocks[tabBlockKey].Id}" 
+                            data-recordtype="{!TabBlocks[tabBlockKey].RecordType.DeveloperName}" 
+                            data-loaded="false" 
+                            data-name= "{!TabBlocks[tabBlockKey].Name}"
+                            data-headertext= "{!TabBlocks[tabBlockKey].Header_Text__c}"
+                            data-viewmoretype= "{!TabBlocks[tabBlockKey].View_More_Type__c}"
+                            data-viewmoretitle= "{!TabBlocks[tabBlockKey].View_More_Title__c}"
+                            data-viewmorelink= "{!TabBlocks[tabBlockKey].View_More_Link__c}"
+                            data-viewmoretarget= "{!TabBlocks[tabBlockKey].View_More_Url_Target__c}"
+                            data-footertext= "{!TabBlocks[tabBlockKey].Footer_Text__c}"
+                            data-height= "{!TabBlocks[tabBlockKey].Height__c}"
+                            data-includedate= "{!TabBlocks[tabBlockKey].Include_Date__c}"
+                            data-hastitlebaroptions= "{!TabBlocks[tabBlockKey].Has_Title_Bar_Options__c}"
+                            data-orgchartdefault="{!TabBlocks[tabBlockKey].Default_Org_Chart_Contact_If_Empty__c}"
+                            data-icon= "{!TabBlocks[tabBlockKey].Icon__c}"
+                            data-listtype="{!TabBlocks[tabBlockKey].List_Type__c}"
+                            data-showlogos="{!TabBlocks[tabBlockKey].Show_Logos__c}"
+                            data-fieldsetname="{!TabBlocks[tabBlockKey].Field_Set_Name__c}"
+                            data-fieldsetnamesecondary="{!TabBlocks[tabBlockKey].Field_Set_Name_Secondary__c}"
+                            data-defaultlogo="{!TabBlocks[tabBlockKey].Account_Logo_List_Default_Logo_Url__c}"
+                            class="{!IF(tabBlockCount == 1, 'first active', IF(tabBlockCount==LandingPage.Tab_Count__c, 'last', ''))}"><span title="{!TabBlocks[tabBlockKey].Name}">{!TabBlocks[tabBlockKey].Name}</span></li>
+                        <apex:variable var="tabBlockCount" value="{!tabBlockCount + 1}"/>
+                    </apex:repeat>
+                </ul>
+                <div class="rpTabBlockContent">
+                    <div class="rpContentBlockContent active" data-block="{!DefaultTabBlock.Id}">
+                        <div class="rpTabBlockContentContainer">
+                            <div class="rpBlockItemsContainer"></div>
+                            <div class="rpBlockLoading"></div>
+                        </div>
+                    </div>
+                </div>
+                <br clear="all"/>
+            </div>
+            </apex:outputPanel>
+        </div>
+
+        <apex:repeat value="{!AnnouncementBlockItems}" var="blockItem" rendered="{!AND(!IsViewMorePage, AnnouncementBlockItems.size > 0)}">
+            <apex:outputPanel layout="block" styleClass="rpAnnouncement">
+                <div class="rpAnnouncementIcon"></div>
+                <div class="rpAnnouncementInner">
+                    <h2>{!blockItem.Title__c}</h2>
+                    <p>{!blockItem.Message_Body__c}</p>
+                </div>
+            </apex:outputPanel>
+        </apex:repeat>
+    
+        
+        <apex:outputPanel layout="none" rendered="{!!IsViewMorePage}">
+        <table class="rpLayout">
+            <tr>
+                <apex:repeat value="{!BodyBlocks}" var="bodyBlockKey">
+                    <td class="rpCol{!bodyBlockKey}">
+                        <apex:repeat value="{!BodyBlocks[bodyBlockKey]}" var="block">
+
+                            <div class="rpSectionBlock rpContentBlock expandablePageBlock" 
+                                data-block="{!block.Id}" 
+                                data-recordtype="{!block.RecordType.DeveloperName}" 
+                                data-loaded="false" 
+                                data-name= "{!block.Name}"
+                                data-headertext= "{!block.Header_Text__c}"
+                                data-viewmoretype= "{!block.View_More_Type__c}"
+                                data-viewmoretitle= "{!block.View_More_Title__c}"
+                                data-viewmorelink= "{!block.View_More_Link__c}"
+                                data-viewmoretarget= "{!block.View_More_Url_Target__c}"
+                                data-footertext= "{!block.Footer_Text__c}"
+                                data-height= "{!block.Height__c}"
+	                            data-includedate= "{!block.Include_Date__c}"
+                                data-icon= "{!block.Icon__c}"
+                                data-listtype="{!block.List_Type__c}"
+                                data-showlogos="{!block.Show_Logos__c}"
+                                data-fieldsetname="{!block.Field_Set_Name__c}"
+                                data-fieldsetnamesecondary="{!block.Field_Set_Name_Secondary__c}"
+                                data-defaultlogo="{!block.Account_Logo_List_Default_Logo_Url__c}">
+                                 
+                                <div class="rpContentBlockTitle">
+                                    <table border="0" cellpadding="0" cellspacing="0"><tr>
+                                    <td class="rpHeaderIcon"><i class="fa fa-{!block.Icon__c} fa-fw block-icon"></i></td>
+                                    <td><h2 class="rpContentBlockTitleH2 open">{!block.Name}</h2></td>
+                                    </tr></table>
+                                </div>
+                                
+                                <div class="rpContentBlockImage" style="background: #cecece url({!block.Picture__c}) no-repeat;"></div>
+                                                                    
+                                <div class="rpContentBlockContent rpExpandable {!block.RecordType.DeveloperName}Block">
+                                    <div class="rpContentBlockPlaceholder">
+                                        <div class="rpBlockItemsContainer"></div>
+                                        <div class="rpBlockLoading"></div>
+                                    </div>
+                                </div>
+                            </div>      
+                            
+                        </apex:repeat>
+                    </td>
+                </apex:repeat>
+            </tr>
+        </table>
+        </apex:outputPanel>
+    </div>
+    
+    <apex:includeScript value="/soap/ajax/24.0/connection.js" />
+    <apex:includeScript value="{!URLFOR($Resource.rpLandingPage, 'js/underscore-min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.rpLandingPage, 'js/jquery-1.11.0.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.rpLandingPage, 'js/jquery-ui-1.10.4.custom.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.rpLandingPage, 'js/jquery.cookie.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.rpLandingPage, 'js/jquery.orgchart.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.rpLandingPage, 'js/rp.landing-page.min.js')}" />
+
+    <script type="text/javascript" src="{!URLFOR($Resource.rpLandingPage, 'js/bigtext.js')}"></script>
+	<script type="text/javascript" src="{!URLFOR($Resource.rpLandingPage,'rp-sidebar/iframeResizer.contentWindow.min.js')}"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            $rp.landingPage.init( { isViewMorePage: {!IsViewMorePage}, showDateTimeInWelcome: {!ShowWelcomeHeader}, 
+            waiverIndicators: { caution: {!$Setup.RP_Waiver_Status_Threshold__c.Caution__c}, danger: {!$Setup.RP_Waiver_Status_Threshold__c.Danger__c} },
+            orgChartFor: "{!$CurrentPage.parameters.orgChartBlockForId}",
+            userSettings: { 
+                id: "{!$User.Id}",
+                isSeller: {!IsSeller},
+                isManager: {!IsManager},
+                isOpportunityOwner: {!IsOpportunityOwner}
+            },  
+            remoting: { 
+                sessionId: "{!$Api.Session_ID}", 
+                getBlockItems: "{!$RemoteAction.RP_LandingPageController.getBlockItems}", 
+                getPFMSchedule: "{!$RemoteAction.RP_LandingPageController.getPFMSchedule}", 
+                getListBlockData: "{!$RemoteAction.RP_LandingPageController.getListBlockData}",
+                getWaiverBlockData: "{!$RemoteAction.RP_LandingPageController.getWaiverBlockData}",
+                getStatusMatchBlockData: "{!$RemoteAction.RP_LandingPageController.getStatusMatchBlockData}", 
+                getOrgChartFor: "{!$RemoteAction.RP_LandingPageController.getOrgChartFor}", 
+                filterContactsForOrgChart: "{!$RemoteAction.RP_LandingPageController.filterContactsForOrgChart}"} });
+        });
+    </script>
+    
+</apex:component>

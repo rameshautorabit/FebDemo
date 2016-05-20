@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <attributeName>FederationIdentifier</attributeName>
+    <errorUrl>https://pro.delta.com/content/corporate/en_US/errors/general-error.html</errorUrl>
+    <identityLocation>Attribute</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>http://www.okta.com/km1gks5cRXYKBVKRKBDT</issuer>
+    <loginUrl>https://delta.okta.com/app/template_saml_2_0/km1gks5cRXYKBVKRKBDT/sso/saml</loginUrl>
+    <logoutUrl>https://pro.delta.com/corporate/indexext.xhtml?expireThis=true</logoutUrl>
+    <name>Okta SAML Configuration</name>
+    <oauthTokenEndpoint>https://test.salesforce.com/services/oauth2/token?so=00D180000001K48</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>0</requestSignatureMethod>
+    <salesforceLoginUrl>https://test.salesforce.com?so=00D180000001K48</salesforceLoginUrl>
+    <samlEntityId>https://deltaprofessional.force.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIClTCCAf6gAwIBAgIGAUQEHL1vMA0GCSqGSIb3DQEBBQUAMIGNMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxDjAMBgNVBAMMBWRlbHRhMRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMB4XDTE0MDIwNTIyMTIxNloXDTQ0MDIwNTIyMTMxNlowgY0xCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0wCwYDVQQKDARPa3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEOMAwGA1UEAwwFZGVsdGExHDAaBgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJTR0tSz7hQzTgm0ZmQfCiBWyzL8QK3fV0gRL6Hynb4NMNG/nkSW+umXradPTbpqJQJ5zNW1GeRcusab6ZY3AY3/B4bt6ZRlA04MIRw5DnGrRhJ5en5RGJcc85bVKmMRraAD6X2XffFbTJlUiSXR3aU8SKdc5fh6Xwku+SRbuG/hAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAKnbanUOW1MI+ghFeGS5/Ih8LpOSXmNnDAZMJUaTrBGXJvwmHUGAawyG8zME6iVQP0iYsoxhYXrSqKZ6xD39oj4RaK4k1R5+jMQRLKNszWizs/J+aAB0i6LywrPno8GZl08f+88JBnsxoRjcxEHANPe+Ke8brpMwcNsuMLSI7eVE=</validationCert>
+</SamlSsoConfig>

@@ -1,0 +1,39 @@
+.THIS {
+
+}
+
+.THIS img {
+display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    max-width: 50%;
+}
+
+.THIS h1 {
+    font-size: 120%;
+    margin-bottom:10px;
+        padding:4px;
+}
+
+.THIS._container {
+    background-color: #FFFFFF;
+    margin:12px;
+    border-radius: 6px;
+
+}
+
+.THIS ._rssitem {
+    border-top: 1px solid #F0F1F2;
+    margin-bottom: 5px;
+    padding:4px;
+}
+
+.THIS ._rsstitle a {
+text-decoration:underline;
+}
+
+
+
+.THIS ._rssdescription {
+    margin-top: 5px;
+}

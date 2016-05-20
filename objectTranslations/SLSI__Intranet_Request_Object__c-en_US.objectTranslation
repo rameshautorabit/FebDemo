@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Department --></label>
+        <name>SLSI__Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>SLSI__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Id --></label>
+        <name>SLSI__Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- UserEmail --></label>
+        <name>SLSI__UserEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- UserName --></label>
+        <name>SLSI__UserName__c</name>
+    </fields>
+    <layouts>
+        <layout>Intranet Request Object Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
