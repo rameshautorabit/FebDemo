@@ -328,6 +328,7 @@
         <members>SLSI__WidgetRepository</members>
         <members>SaiMay13Test1</members>
         <members>SaiMay13Test2</members>
+        <members>agf__ADM_AcceptanceCriterionCloner</members>
         <members>agf__ADM_AllocationWrapper</members>
         <members>agf__ADM_Application</members>
         <members>agf__ADM_ApplicationApprover</members>
