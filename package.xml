@@ -329,6 +329,8 @@
         <members>SaiMay13Test1</members>
         <members>SaiMay13Test2</members>
         <members>agf__ADM_AcceptanceCriterionCloner</members>
+        <members>agf__ADM_AddWorkToPrioritizerExtension</members>
+        <members>agf__ADM_AddWorkToPrioritizerExtensionTest</members>
         <members>agf__ADM_AllocationWrapper</members>
         <members>agf__ADM_Application</members>
         <members>agf__ADM_ApplicationApprover</members>
@@ -1629,6 +1631,7 @@
         <members>Event</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
+        <members>Fundraiser__c</members>
         <members>Idea</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
