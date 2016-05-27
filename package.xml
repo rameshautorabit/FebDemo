@@ -24,6 +24,7 @@
         <members>DeployTest1</members>
         <members>DeployTest2</members>
         <members>DeployTest3</members>
+        <members>DummyBuildTest1</members>
         <members>FirstClass1</members>
         <members>LC_Rss__AttribItem</members>
         <members>LC_Rss__RSSViewController</members>
