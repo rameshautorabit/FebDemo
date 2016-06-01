@@ -347,6 +347,7 @@
         <members>agf__ADM_BackboneController</members>
         <members>agf__ADM_BeforeInsertOrUpdate</members>
         <members>agf__ADM_BugUtils</members>
+        <members>agf__ADM_Case</members>
         <members>agf__ADM_DevelopmentCycleUtils</members>
         <members>lookup__FinderController</members>
         <members>lookup__FinderControllerTest</members>
