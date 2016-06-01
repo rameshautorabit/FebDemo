@@ -332,6 +332,8 @@
         <members>agf__ADM_AcceptanceCriterionCloner</members>
         <members>agf__ADM_AddWorkToPrioritizerExtension</members>
         <members>agf__ADM_AddWorkToPrioritizerExtensionTest</members>
+        <members>agf__ADM_AddWorkToSprintController</members>
+        <members>agf__ADM_AgeOfWorkTests</members>
         <members>agf__ADM_AllocationWrapper</members>
         <members>agf__ADM_Application</members>
         <members>agf__ADM_ApplicationApprover</members>
