@@ -344,6 +344,7 @@
         <members>agf__ADM_AssignmentRuleController</members>
         <members>agf__ADM_AssignmentRuleTest</members>
         <members>agf__ADM_AutoAssignWorkActionTests</members>
+        <members>agf__ADM_BackboneController</members>
         <members>agf__ADM_DevelopmentCycleUtils</members>
         <members>lookup__FinderController</members>
         <members>lookup__FinderControllerTest</members>
