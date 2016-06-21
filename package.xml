@@ -188,6 +188,12 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>Fundraiser__c</members>
+        <members>Test__c</members>
+        <members>Vehicle__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
         <members>unfiled$public</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
         <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
