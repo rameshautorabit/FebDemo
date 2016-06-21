@@ -69,6 +69,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>ALMsample__c.WorkItemNum__c</members>
         <members>Account.Active__c</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>
@@ -76,12 +77,19 @@
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Campsite_Reservation__c.Campsite__c</members>
+        <members>Campsite_Reservation__c.End_Date__c</members>
+        <members>Campsite_Reservation__c.Start_Date__c</members>
+        <members>Campsite_Reservation__c.User__c</members>
+        <members>Campsite__c.Description__c</members>
+        <members>Candidate__c.Procepe__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>DeployMay02Test1__c.Mayo2Field1__c</members>
         <members>Goal.OrigGoalId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
@@ -98,6 +106,10 @@
         <members>RameshRabit__c.Testfield1__c</members>
         <members>RameshRabit__c.marchField__c</members>
         <members>TestNewFebDemo__c.SubField1__c</members>
+        <members>Test__c.Hiring_Manager__c</members>
+        <members>Trail__c.Description__c</members>
+        <members>Trail__c.Distance__c</members>
+        <members>Trail__c.Last_Inspection_Date__c</members>
         <name>CustomField</name>
     </types>
     <types>
