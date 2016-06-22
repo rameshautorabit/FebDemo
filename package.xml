@@ -27,6 +27,7 @@
         <members>DeployTest3</members>
         <members>DummyBuildTest1</members>
         <members>FirstClass1</members>
+        <members>Jun22Test1</members>
         <members>RameshAccount1</members>
         <name>ApexClass</name>
     </types>
