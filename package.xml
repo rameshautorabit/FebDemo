@@ -58,6 +58,8 @@
         <name>Community</name>
     </types>
     <types>
+        <members>Charitable</members>
+        <members>Garage</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
