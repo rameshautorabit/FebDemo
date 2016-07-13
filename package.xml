@@ -103,6 +103,7 @@
         <members>Contact.Level__c</members>
         <members>DeployMay02Test1__c.Mayo2Field1__c</members>
         <members>Goal.OrigGoalId__c</members>
+        <members>Jul13Obj1__c.Jul13Label1__c</members>
         <members>Jun30Obj1__c.SerialNum__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
@@ -165,6 +166,7 @@
         <members>ForecastingCategoryMapping</members>
         <members>Fundraiser__c</members>
         <members>Idea</members>
+        <members>Jul13Obj1__c</members>
         <members>Jun30Obj1__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
