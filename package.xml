@@ -41,6 +41,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Job_Candidate_Help</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
         <name>AppMenu</name>
