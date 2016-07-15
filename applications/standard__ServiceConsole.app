@@ -7,6 +7,8 @@
     <enableListViewReskin>true</enableListViewReskin>
     <enableMultiMonitorComponents>true</enableMultiMonitorComponents>
     <enablePinTabs>true</enablePinTabs>
+    <enableTabHover>false</enableTabHover>
+    <enableTabLimits>false</enableTabLimits>
     <isServiceCloudConsole>true</isServiceCloudConsole>
     <keyboardShortcuts>
         <defaultShortcut>
@@ -171,7 +173,11 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
+    <tab>Test__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>Test__c</tab>
+        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>
