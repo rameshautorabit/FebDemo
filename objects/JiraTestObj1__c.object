@@ -7,4 +7,13 @@
         <trackTrending>false</trackTrending>
         <type>AutoNumber</type>
     </fields>
+    <fields>
+        <fullName>NiruField1__c</fullName>
+        <description>Test</description>
+        <externalId>false</externalId>
+        <label>NiruField1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
 </CustomObject>
