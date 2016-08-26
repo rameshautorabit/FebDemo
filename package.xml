@@ -111,6 +111,7 @@
         <members>Goal.OrigGoalId__c</members>
         <members>JiraTestObj1__c.JiraRameshtest1__c</members>
         <members>JiraTestObj1__c.NiruField1__c</members>
+        <members>JiraTestObj1__c.testjira1__c</members>
         <members>Jul13Obj1__c.Jul13Label1__c</members>
         <members>Jun30Obj1__c.SerialNum__c</members>
         <members>Lead.CurrentGenerators__c</members>
