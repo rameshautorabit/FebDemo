@@ -7,4 +7,11 @@
         <trackTrending>false</trackTrending>
         <type>AutoNumber</type>
     </fields>
+    <fields>
+        <fullName>field2__c</fullName>
+        <externalId>false</externalId>
+        <label>field2</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
 </CustomObject>

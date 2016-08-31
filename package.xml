@@ -134,6 +134,7 @@
         <members>Trail__c.Distance__c</members>
         <members>Trail__c.Last_Inspection_Date__c</members>
         <members>aug31obj__c.field1__c</members>
+        <members>aug31obj__c.field2__c</members>
         <name>CustomField</name>
     </types>
     <types>
