@@ -112,6 +112,7 @@
         <members>Contact.Level__c</members>
         <members>DeployMay02Test1__c.Mayo2Field1__c</members>
         <members>Goal.OrigGoalId__c</members>
+        <members>JiraTestObj1__c.FinalTestField1__c</members>
         <members>JiraTestObj1__c.JiraRameshtest1__c</members>
         <members>JiraTestObj1__c.NiruField1__c</members>
         <members>JiraTestObj1__c.testjira1__c</members>
@@ -180,6 +181,7 @@
         <members>ForecastingCategoryMapping</members>
         <members>Fundraiser__c</members>
         <members>Idea</members>
+        <members>JiraTestObj1__c</members>
         <members>Jul13Obj1__c</members>
         <members>Jun30Obj1__c</members>
         <members>Lead</members>
