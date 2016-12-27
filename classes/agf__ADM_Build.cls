@@ -5,8 +5,8 @@ This read-only file shows the class's global constructors,
 methods, variables, and properties.
 To enable code to compile, all methods return null.
 */
-global class ADM_BugUtils {
-    global ADM_BugUtils() {
+global class ADM_Build {
+    global ADM_Build() {
 
     }
 }
