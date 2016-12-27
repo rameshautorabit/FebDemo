@@ -1,6 +1,6 @@
 public Class ALMAccount
 {
-//Modification on April 19 test Added
+//Modification on April 19
 public Account createAccount(String name)  
 {
 Account acc1= new Account();
