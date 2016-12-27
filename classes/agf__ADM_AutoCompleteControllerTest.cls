@@ -5,5 +5,8 @@ This read-only file shows the class's global constructors,
 methods, variables, and properties.
 To enable code to compile, all methods return null.
 */
-global class ADM_AutoCompleteController {
+global class ADM_AutoCompleteControllerTest {
+    global ADM_AutoCompleteControllerTest() {
+
+    }
 }
