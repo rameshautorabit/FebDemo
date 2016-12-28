@@ -349,6 +349,9 @@
         <members>agf__ADM_BackboneController</members>
         <members>agf__ADM_BeforeInsertOrUpdate</members>
         <members>agf__ADM_BeforeInsertOrUpdateTests</members>
+        <members>agf__ADM_BookmarksExtension</members>
+        <members>agf__ADM_BookmarksExtensionTest</members>
+        <members>agf__ADM_BugControllerGlobalAction</members>
         <members>agf__ADM_BugExtensionTest</members>
         <members>agf__ADM_BugUtils</members>
         <members>agf__ADM_Build</members>
