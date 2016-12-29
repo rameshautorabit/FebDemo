@@ -1654,6 +1654,7 @@
         <members>ForecastingCategoryMapping</members>
         <members>Fundraiser__c</members>
         <members>Idea</members>
+        <members>JiraTestObj1__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>LoginPage__c</members>
