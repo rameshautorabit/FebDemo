@@ -5,8 +5,8 @@ This read-only file shows the class's global constructors,
 methods, variables, and properties.
 To enable code to compile, all methods return null.
 */
-global class ADM_BeforeInsertOrUpdate {
-    global ADM_BeforeInsertOrUpdate() {
+global class ADM_BackboneControllerTests {
+    global ADM_BackboneControllerTests() {
 
     }
 }

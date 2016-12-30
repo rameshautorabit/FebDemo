@@ -349,6 +349,7 @@
         <members>agf__ADM_AutoCompleteController</members>
         <members>agf__ADM_AutoCompleteControllerTest</members>
         <members>agf__ADM_BackboneController</members>
+        <members>agf__ADM_BackboneControllerTests</members>
         <members>agf__ADM_BeforeInsertOrUpdate</members>
         <members>agf__ADM_BeforeInsertOrUpdateTests</members>
         <members>agf__ADM_BookmarksExtension</members>
