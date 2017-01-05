@@ -1,10 +1,10 @@
 public Class AccountCreation2
 {
-//test
+//test in April26
 public Account createAccount(String name)  
 {
-Account acc1= new Account();
-acc1.Name = name;
-return acc1;
+Account acc10= new Account();
+acc10.Name = name;
+return acc10;
 }
 }

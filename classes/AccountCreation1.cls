@@ -1,6 +1,6 @@
 public Class AccountCreation1
 {
-//Test in May27
+//Modified Class on jun23
 public Account createAccount(String name)  
 {
 Account att2= new Account();
