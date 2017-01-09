@@ -367,6 +367,7 @@
         <members>agf__ADM_Chatter</members>
         <members>agf__ADM_ColorTriggerTest</members>
         <members>agf__ADM_Comment</members>
+        <members>agf__ADM_CopyLogTests</members>
         <members>agf__ADM_DevelopmentCycleUtils</members>
         <members>agf__ADM_EntitySubscriptionUtils</members>
         <members>agf__ADM_EntitySubscriptionUtilsTest</members>
