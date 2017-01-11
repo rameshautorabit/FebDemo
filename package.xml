@@ -348,6 +348,7 @@
         <members>agf__ADM_ApplicationApprover_TriggerTest</members>
         <members>agf__ADM_ApplicationException</members>
         <members>agf__ADM_Application_TriggerTest</members>
+        <members>agf__ADM_AssignmentRule</members>
         <members>agf__ADM_AssignmentRuleController</members>
         <members>agf__ADM_AssignmentRuleTest</members>
         <members>agf__ADM_AutoAssignWorkActionTests</members>
