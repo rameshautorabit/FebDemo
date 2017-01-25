@@ -9,6 +9,10 @@
         <value>RameshRabits</value>
     </caseValues>
     <fields>
+        <label><!-- AprilFool --></label>
+        <name>AprilFool__c</name>
+    </fields>
+    <fields>
         <label><!-- TestField2 --></label>
         <name>TestField2__c</name>
     </fields>

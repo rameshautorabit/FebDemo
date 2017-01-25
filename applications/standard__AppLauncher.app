@@ -3,4 +3,5 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-AppLauncher</tab>
     <tab>Test__c</tab>
+    <tab>ALMBuildObj__c</tab>
 </CustomApplication>

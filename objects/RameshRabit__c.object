@@ -57,6 +57,16 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>AprilFool__c</fullName>
+        <externalId>false</externalId>
+        <label>AprilFool</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TestField2__c</fullName>
         <description>test</description>
         <externalId>false</externalId>
@@ -82,16 +92,6 @@
         <label>marchField</label>
         <trackTrending>false</trackTrending>
         <type>AutoNumber</type>
-    </fields>
-    <fields>
-        <fullName>AprilFool__c</fullName>
-        <externalId>false</externalId>
-        <label>AprilFool</label>
-        <length>32</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <label>RameshRabit</label>
     <nameField>

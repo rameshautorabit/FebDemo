@@ -174,7 +174,11 @@
     <tab>standard-Lead</tab>
     <tab>standard-Knowledge</tab>
     <tab>Test__c</tab>
+    <tab>ALMBuildObj__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>ALMBuildObj__c</tab>
+        </mapping>
         <mapping>
             <tab>Test__c</tab>
         </mapping>
