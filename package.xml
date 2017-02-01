@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>37.0</version>
     <types>
         <members>ALMAccount</members>
         <members>ALMAccount1</members>
@@ -13,6 +14,7 @@
         <members>ALMTest1</members>
         <members>ALMTest2</members>
         <members>AccountCreation1</members>
+        <members>AccountCreation102</members>
         <members>AccountCreation2</members>
         <members>April26Account1</members>
         <members>CancelDeploy1</members>
@@ -57,6 +59,9 @@
         <members>ScheduleCheckNov23Final</members>
         <members>ScheduleCheckNov23Test2</members>
         <members>Sep15Test1</members>
+        <members>Testams1</members>
+        <members>Testams2</members>
+        <members>Testams3</members>
         <members>VOneDec29Test1</members>
         <members>VOneDec29Test2</members>
         <members>VOneDec29Test3</members>
@@ -95,6 +100,7 @@
     <types>
         <members>Charitable</members>
         <members>Garage</members>
+        <members>Test</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
@@ -127,6 +133,7 @@
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
+        <members>Case.agf__ADM_Work__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>DeployMay02Test1__c.Mayo2Field1__c</members>
@@ -158,13 +165,17 @@
         <members>Trail__c.Description__c</members>
         <members>Trail__c.Distance__c</members>
         <members>Trail__c.Last_Inspection_Date__c</members>
+        <members>User.agf__External_ID__c</members>
+        <members>User.agf__GUS_User_Type__c</members>
+        <members>User.agf__Notification_Level__c</members>
+        <members>User.agf__Show_All_Work_Comments__c</members>
+        <members>User.agf__Summary__c</members>
+        <members>User.agf__Team_Member_Allocation__c</members>
+        <members>User.agf__Wall_Preference__c</members>
+        <members>User.agf__Work_User_Interface__c</members>
         <members>aug31obj__c.field1__c</members>
         <members>aug31obj__c.field2__c</members>
         <name>CustomField</name>
-    </types>
-    <types>
-        <members>CustomLabels</members>
-        <name>CustomLabels</name>
     </types>
     <types>
         <members>ALMBuildObj2__c</members>
@@ -276,16 +287,24 @@
         <name>CustomTab</name>
     </types>
     <types>
-        <members>unfiled$public</members>
+        <members>unfiled$public/MarketingProductInquiryResponse</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
+        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <members>unfiled$public/SupportEscalatedCaseNotification</members>
+        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SupportSelfServiceResetPassword</members>
         <name>EmailTemplate</name>
     </types>
     <types>
         <members>Case.Standard</members>
         <name>EscalationRule</name>
-    </types>
-    <types>
-        <members>Case</members>
-        <name>EscalationRules</name>
     </types>
     <types>
         <members>DE Default</members>
@@ -355,6 +374,7 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
         <members>RameshRabit__c-RameshRabit Layout</members>
+        <members>SocialPersona-Social Persona Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>TestNewFebDemo__c-TestNewFebDemo Layout</members>
@@ -423,22 +443,7 @@
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
         <members>Vehicle__c.All</members>
-        <members>WorkFeedbackRequest.AboutTopics</members>
-        <members>WorkFeedbackRequest.All</members>
-        <members>WorkFeedbackTemplate.All</members>
         <name>ListView</name>
-    </types>
-    <types>
-        <members>Account.Standard_Account_Match_Rule_v1_0</members>
-        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
-        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
-        <name>MatchingRule</name>
-    </types>
-    <types>
-        <members>Account</members>
-        <members>Contact</members>
-        <members>Lead</members>
-        <name>MatchingRules</name>
     </types>
     <types>
         <members>Charitable_Developer</members>
@@ -515,10 +520,6 @@
         <name>RemoteSiteSetting</name>
     </types>
     <types>
-        <members>unfiled$public</members>
-        <name>Report</name>
-    </types>
-    <types>
         <members>CEO</members>
         <members>CFO</members>
         <members>COO</members>
@@ -538,111 +539,6 @@
         <members>VPNorthAmericanSales</members>
         <members>WesternSalesTeam</members>
         <name>Role</name>
-    </types>
-    <types>
-        <members>ALMBuildObj2__c</members>
-        <members>ALMBuildObj3__c</members>
-        <members>ALMBuildObj__c</members>
-        <members>ALMsample__c</members>
-        <members>Account</members>
-        <members>April11Obj2__c</members>
-        <members>April11Obj3__c</members>
-        <members>April11Obj__c</members>
-        <members>Asset</members>
-        <members>Buildobject5__c</members>
-        <members>Campaign</members>
-        <members>Campsite__c</members>
-        <members>Candidate__c</members>
-        <members>Case</members>
-        <members>Contact</members>
-        <members>DeployMay02Test1__c</members>
-        <members>Fundraiser__c</members>
-        <members>JiraTestObj1__c</members>
-        <members>Jul13Obj1__c</members>
-        <members>Jun30Obj1__c</members>
-        <members>Lead</members>
-        <members>LoginPage__c</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>ParallelDepTest12__c</members>
-        <members>ParallelTest__c</members>
-        <members>RameshRabit__c</members>
-        <members>TestNewFebDemo__c</members>
-        <members>Test__c</members>
-        <members>Trail__c</members>
-        <members>User</members>
-        <members>Vehicle__c</members>
-        <members>aug31obj__c</members>
-        <name>SharingRules</name>
-    </types>
-    <types>
-        <members>Account.Billing</members>
-        <members>Campaign.ViewCampaignInfluenceReport</members>
-        <members>Case.UpsellCrosssellOpportunity</members>
-        <members>Opportunity.DeliveryStatus</members>
-        <name>WebLink</name>
-    </types>
-    <types>
-        <members>ALMBuildObj2__c</members>
-        <members>ALMBuildObj3__c</members>
-        <members>ALMBuildObj__c</members>
-        <members>ALMsample__c</members>
-        <members>Account</members>
-        <members>April11Obj2__c</members>
-        <members>April11Obj3__c</members>
-        <members>April11Obj__c</members>
-        <members>Asset</members>
-        <members>AssistantProgress</members>
-        <members>Buildobject5__c</members>
-        <members>Campaign</members>
-        <members>CampaignMember</members>
-        <members>Campsite_Reservation__c</members>
-        <members>Campsite__c</members>
-        <members>Candidate__c</members>
-        <members>Case</members>
-        <members>Contact</members>
-        <members>Contract</members>
-        <members>DandBCompany</members>
-        <members>DeployMay02Test1__c</members>
-        <members>DuplicateRecordItem</members>
-        <members>DuplicateRecordSet</members>
-        <members>EmailMessage</members>
-        <members>Event</members>
-        <members>ExchangeUserMapping</members>
-        <members>FeedItem</members>
-        <members>Fundraiser__c</members>
-        <members>Idea</members>
-        <members>JiraTestObj1__c</members>
-        <members>Jul13Obj1__c</members>
-        <members>Jun30Obj1__c</members>
-        <members>Lead</members>
-        <members>LoginPage__c</members>
-        <members>Macro</members>
-        <members>MacroAction</members>
-        <members>MacroInstruction</members>
-        <members>Opportunity</members>
-        <members>OpportunityLineItem</members>
-        <members>Order</members>
-        <members>OrderItem</members>
-        <members>Organization</members>
-        <members>ParallelDepTest12__c</members>
-        <members>ParallelTest__c</members>
-        <members>Product2</members>
-        <members>RameshRabit__c</members>
-        <members>Site</members>
-        <members>SocialPersona</members>
-        <members>Solution</members>
-        <members>StreamingChannel</members>
-        <members>Task</members>
-        <members>TestNewFebDemo__c</members>
-        <members>Test__c</members>
-        <members>Trail__c</members>
-        <members>User</members>
-        <members>UserLicense</members>
-        <members>UserProvisioningRequest</members>
-        <members>Vehicle__c</members>
-        <members>aug31obj__c</members>
-        <name>Workflow</name>
     </types>
     <types>
         <members>Account</members>
@@ -672,5 +568,15 @@
         <members>Security</members>
         <name>Settings</name>
     </types>
-    <version>37.0</version>
+    <types>
+        <members>Task.UpdateStatus_0.quickAction</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Opportunity.DeliveryStatus</members>
+        <name>WebLink</name>
+    </types>
 </Package>

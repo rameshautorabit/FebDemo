@@ -48,34 +48,6 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
-        <fullName>AccountId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Amount</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>CampaignId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>CloseDate</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>ContractId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>CurrentGenerators__c</fullName>
         <externalId>false</externalId>
         <label>Current Generator(s)</label>
@@ -111,49 +83,6 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Description</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>ExpectedRevenue</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>IsPrivate</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>LeadSource</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Phone Inquiry</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Partner Referral</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Purchased List</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
         <fullName>MainCompetitors__c</fullName>
         <externalId>false</externalId>
         <label>Main Competitor(s)</label>
@@ -163,16 +92,6 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>NextStep</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>OrderNumber__c</fullName>
@@ -186,116 +105,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Pricebook2Id</fullName>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Probability</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>StageName</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Prospecting</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>10</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Qualification</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>10</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Needs Analysis</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>20</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Value Proposition</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>50</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Id. Decision Makers</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>60</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Perception Analysis</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>70</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Proposal/Price Quote</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>75</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Negotiation/Review</fullName>
-                <default>false</default>
-                <closed>false</closed>
-                <forecastCategory>Pipeline</forecastCategory>
-                <probability>90</probability>
-                <won>false</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Closed Won</fullName>
-                <default>false</default>
-                <closed>true</closed>
-                <forecastCategory>Closed</forecastCategory>
-                <probability>100</probability>
-                <won>true</won>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Closed Lost</fullName>
-                <default>false</default>
-                <closed>true</closed>
-                <forecastCategory>Omitted</forecastCategory>
-                <probability>0</probability>
-                <won>false</won>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>TotalOpportunityQuantity</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
         <fullName>TrackingNumber__c</fullName>
         <externalId>false</externalId>
         <label>Tracking Number</label>
@@ -305,31 +114,6 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Type</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Existing Customer - Upgrade</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Existing Customer - Replacement</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Existing Customer - Downgrade</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>New Customer</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
     </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>

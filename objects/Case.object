@@ -63,64 +63,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <fields>
-        <fullName>AccountId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>AssetId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>BusinessHoursId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ClosedDate</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>Comments</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>ContactEmail</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>ContactFax</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>ContactId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ContactMobile</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>ContactPhone</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>Description</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
         <fullName>EngineeringReqNumber__c</fullName>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
@@ -131,54 +73,6 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>IsClosedOnCreate</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>IsEscalated</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>Origin</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Phone</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Email</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ParentId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>PotentialLiability__c</fullName>
@@ -198,28 +92,6 @@
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Priority</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>High</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Medium</fullName>
-                <default>true</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Low</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
@@ -273,51 +145,6 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Reason</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Installation</fullName>
-                <default>false</default>
-                <cssExposed>false</cssExposed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Equipment Complexity</fullName>
-                <default>false</default>
-                <cssExposed>false</cssExposed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Performance</fullName>
-                <default>false</default>
-                <cssExposed>false</cssExposed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Breakdown</fullName>
-                <default>false</default>
-                <cssExposed>false</cssExposed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Equipment Design</fullName>
-                <default>false</default>
-                <cssExposed>false</cssExposed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Feedback</fullName>
-                <default>false</default>
-                <cssExposed>false</cssExposed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Other</fullName>
-                <default>false</default>
-                <cssExposed>false</cssExposed>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
         <fullName>SLAViolation__c</fullName>
         <externalId>false</externalId>
         <label>SLA Violation</label>
@@ -335,88 +162,6 @@
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Status</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>New</fullName>
-                <default>true</default>
-                <closed>false</closed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Working</fullName>
-                <default>false</default>
-                <closed>false</closed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Escalated</fullName>
-                <default>false</default>
-                <closed>false</closed>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Closed</fullName>
-                <default>false</default>
-                <closed>true</closed>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Subject</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SuppliedCompany</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SuppliedEmail</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SuppliedName</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>SuppliedPhone</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
-        <fullName>Type</fullName>
-        <picklist>
-            <picklistValues>
-                <fullName>Mechanical</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Electrical</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Electronic</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Structural</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
