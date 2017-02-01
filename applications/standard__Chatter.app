@@ -6,4 +6,6 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
+    <tab>Test__c</tab>
+    <tab>ALMBuildObj__c</tab>
 </CustomApplication>

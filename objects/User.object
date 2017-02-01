@@ -9,7 +9,7 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>DeletePhotoAction</actionName>
+        <actionName>DeleteBannerPhotoAction</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -49,212 +49,153 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>UpdatePhotoAction</actionName>
+        <actionName>UpdateBannerPhotoAction</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>UserActivationAction</actionName>
         <type>Default</type>
     </actionOverrides>
-    <actionOverrides>
-        <actionName>ViewPhotoAction</actionName>
-        <type>Default</type>
-    </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
-    <fieldSets>
-        <fullName>SLSI__SL_EmployeeDirectoryFieldSet</fullName>
-        <availableFields>
-            <field>SLSI__All_Offices__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>SLSI__User_Offices__c</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <description>This field set is used in the Employee Directory page to display the relevant information about users.</description>
-        <displayedFields>
-            <field>SmallPhotoUrl</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>FirstName</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Title</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Phone</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <displayedFields>
-            <field>Email</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <label>SL_EmployeeDirectoryFieldSet</label>
-    </fieldSets>
-    <fieldSets>
-        <fullName>UserWelcome</fullName>
-        <description>WaterCooler HomePage</description>
-        <displayedFields>
-            <field>SmallPhotoUrl</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <label>UserWelcome</label>
-    </fieldSets>
     <fields>
         <fullName>ManagerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Hierarchy</type>
     </fields>
     <fields>
-        <fullName>SLSI__All_Departments__c</fullName>
-        <defaultValue>false</defaultValue>
+        <fullName>agf__External_ID__c</fullName>
+        <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>All Departments</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SLSI__All_Offices__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>All Offices</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SLSI__Exclude_from_Intranet_Directory__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Exclude from Intranet Directory</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SLSI__Hire_Date__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Date person was hired at Intranet</description>
-        <externalId>false</externalId>
-        <label>Hire Date</label>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>32</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Date</type>
+        <type>Text</type>
+        <unique>true</unique>
     </fields>
     <fields>
-        <fullName>SLSI__Intranet_Administrator__c</fullName>
-        <defaultValue>false</defaultValue>
+        <fullName>agf__GUS_User_Type__c</fullName>
         <deprecated>false</deprecated>
+        <description>Full Time Employee - This will be used to identify all FTEs in GUS
+Contractor - This will be used to identify all Contractors in GUS
+Team User - This will be used to identify all Team Users in GUS
+API user - This will be used to identify all API users in GUS</description>
         <externalId>false</externalId>
-        <label>Intranet Administrator</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SLSI__My_Offices__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>My Offices</label>
-        <length>32768</length>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
-        <fullName>SLSI__Office__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <inlineHelpText>This field is deprecated and does not need to be included on the User layout</inlineHelpText>
-        <label>Office-Deprecated</label>
+        <label>GUS User Type</label>
         <picklist>
             <picklistValues>
-                <fullName>Chicago</fullName>
+                <fullName>Full Time Employee</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>New York</fullName>
-                <default>true</default>
+                <fullName>Contractor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Team User</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>API User</fullName>
+                <default>false</default>
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>SLSI__Select_Departments__c</fullName>
+        <fullName>agf__Notification_Level__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <formula>IF( SLSI__All_Departments__c , 'User can only be part of particular departments if they are not belonging to all departments i.e. All Departments field is unchecked.', HYPERLINK('apex/SLSI__SL_IntranetDepartmentLookup?id='+ Id , 'Click to select departments' , '_self') )</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Select Departments</label>
+        <inlineHelpText>Adjusts how often you are sent emails about Work.
+
+Bread &amp; Butter:  User comments and added as an Assignee
+Meat &amp; Potatoes: User comments, status changes and added as Assignee
+The Whole Enchilada: All notifications (Default)</inlineHelpText>
+        <label>Work Notification Level</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Bread &amp; Butter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meat &amp; Potatoes</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>The Whole Enchilada</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>agf__Show_All_Work_Comments__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Show All Work Comments</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>agf__Summary__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Summary</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>agf__Team_Member_Allocation__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/apex/adm_teammemberallocation?Id=&apos; +  Id, &apos;view&apos; )</formula>
+        <label>Team Member Allocation</label>
         <required>false</required>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>SLSI__Select_Offices__c</fullName>
+        <fullName>agf__Wall_Preference__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <formula>IF( SLSI__All_Offices__c , 'User can only be part of particular offices if they are not belong to all offices i.e.  All Offices field is unchecked.', HYPERLINK('apex/SLSI__SL_IntranetOfficeLookup?id='+ Id , 'Click to select offices' , '_self') )</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Select Offices</label>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SLSI__Selected_Department_Ids__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Selected Department Ids</label>
+        <label>Wall Preference</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
-        <fullName>SLSI__Selected_Offices_Ids__c</fullName>
+        <fullName>agf__Work_User_Interface__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <label>Selected Offices Ids</label>
-        <length>32768</length>
+        <inlineHelpText>Determines which version of the Work page you will see for Bugs and User Stories.</inlineHelpText>
+        <label>Work User Interface</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Classic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Next Generation</fullName>
+                <default>true</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>LongTextArea</type>
-        <visibleLines>2</visibleLines>
-    </fields>
-    <fields>
-        <fullName>SLSI__User_Departments__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>User Departments</label>
-        <length>32768</length>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
-        <fullName>SLSI__User_Offices__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>User Offices</label>
-        <length>32768</length>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>LongTextArea</type>
-        <visibleLines>5</visibleLines>
+        <type>Picklist</type>
     </fields>
     <listViews>
         <fullName>ActiveUsers</fullName>
@@ -268,20 +209,11 @@
     </listViews>
     <listViews>
         <fullName>AdminUsers</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>CORE.USERS.ACTIVE</columns>
-        <columns>CORE.USER_ROLE.NAME</columns>
-        <columns>CORE.PROFILE.NAME</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>CORE.PROFILE.NAME</field>
             <operation>equals</operation>
             <value>System Administrator</value>
-        </filters>
-        <filters>
-            <field>CORE.USERS.ACTIVE</field>
-            <operation>equals</operation>
-            <value>1</value>
         </filters>
         <label>Admin Users</label>
     </listViews>

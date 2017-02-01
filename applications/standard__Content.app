@@ -6,4 +6,6 @@
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
     <tab>standard-ContentFavorites</tab>
+    <tab>Test__c</tab>
+    <tab>ALMBuildObj__c</tab>
 </CustomApplication>

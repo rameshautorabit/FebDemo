@@ -56,6 +56,41 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>FinalTestField1__c</fullName>
+        <externalId>false</externalId>
+        <label>FinalTestField1</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>JiraRameshtest1__c</fullName>
+        <externalId>false</externalId>
+        <label>JiraRameshtest1</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>NiruField1__c</fullName>
+        <description>Test</description>
+        <externalId>false</externalId>
+        <label>NiruField1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>testjira1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Build</label>
+        <referenceTo>agf__ADM_Build__c</referenceTo>
+        <relationshipLabel>JiraTestObj1s</relationshipLabel>
+        <relationshipName>JiraTestObj1s</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <label>JiraTestObj1</label>
     <nameField>
         <label>JiraTestObj1 Name</label>

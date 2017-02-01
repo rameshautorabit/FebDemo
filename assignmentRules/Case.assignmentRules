@@ -89,18 +89,4 @@
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
-    <assignmentRule>
-        <fullName>Global Sales Assignment Rules</fullName>
-        <active>true</active>
-        <ruleEntry>
-            <assignedTo>Waiver_Pilot_Support</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Waivers Pilot Support</value>
-            </criteriaItems>
-            <template>unfiled$public/Case_Assignment_Email_Alert</template>
-        </ruleEntry>
-    </assignmentRule>
 </AssignmentRules>

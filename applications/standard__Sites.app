@@ -3,4 +3,6 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-Chatter</tab>
     <tab>standard-Sites</tab>
+    <tab>Test__c</tab>
+    <tab>ALMBuildObj__c</tab>
 </CustomApplication>

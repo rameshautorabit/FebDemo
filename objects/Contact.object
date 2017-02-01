@@ -211,6 +211,7 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
@@ -315,24 +316,4 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
-    <webLinks>
-        <fullName>BLND_FormFactoryContactLink</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <height>550</height>
-        <linkType>url</linkType>
-        <masterLabel>FormFactory Contact Link</masterLabel>
-        <openType>sidebar</openType>
-        <protected>false</protected>
-        <url>https://www.dreamfactory.net/sforce/formfactory/formfactory.html? 
-sforce_session_id={!API.Session_ID}&amp; 
-sforce_server_url={!API.Partner_Server_URL_120}&amp; 
-sforce_user_name={!User.Username}&amp; 
-sforce_full_name={!User.Name}&amp; 
-sforce_user_id={!User.Id}&amp; 
-custom_link_name=FormFactory Form Name&amp; 
-mycontact={!Contact.Id}&amp; 
-myuser={!User.Id}</url>
-    </webLinks>
 </CustomObject>
