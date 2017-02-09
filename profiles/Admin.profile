@@ -115,10 +115,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AccountCreation1</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AccountCreation2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -268,6 +264,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>RamsOrgNov01</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RetriveCommitTest1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>

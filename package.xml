@@ -12,7 +12,6 @@
         <members>ALMBuild4</members>
         <members>ALMTest1</members>
         <members>ALMTest2</members>
-        <members>AccountCreation1</members>
         <members>AccountCreation2</members>
         <members>April26Account1</members>
         <members>CancelDeploy1</members>
@@ -51,6 +50,7 @@
         <members>PlDepNov23Test1</members>
         <members>RameshAccount1</members>
         <members>RamsOrgNov01</members>
+        <members>RetriveCommitTest1</members>
         <members>SaiMay13Test1</members>
         <members>SaiMay13Test2</members>
         <members>ScheduleCheckNov23</members>

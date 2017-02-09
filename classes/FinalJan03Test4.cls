@@ -1,10 +1,10 @@
 public Class FinalJan03Test4
 {
-//Modified Comment on Feb01Dec17 part2
+
 public Account createAccount(String name)  
 {
-Account att2= new Account();
-att2.Name = name;
-return att2;
+Account att21= new Account();
+att21.Name = name;
+return att21;
 }
 }
