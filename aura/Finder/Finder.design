@@ -1,4 +1,0 @@
-<design:component>
-    <design:attribute name="label" label="label" description="The field label"/> 
-    <design:attribute name="placeholder" label="placeholder" description="The placeholder text to appear in the field"/>    
-</design:component>

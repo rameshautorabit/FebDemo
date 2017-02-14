@@ -1,1 +1,0 @@
-<apex:page controller="MPM4_BASE.Milestone1_Report_Handler" action="{!redirectToProjectReport}"/>
