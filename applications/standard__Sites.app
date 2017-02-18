@@ -4,4 +4,5 @@
     <formFactors>Large</formFactors>
     <tab>standard-Chatter</tab>
     <tab>standard-Sites</tab>
+    <tab>Test__c</tab>
 </CustomApplication>
