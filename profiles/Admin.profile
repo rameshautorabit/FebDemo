@@ -74,18 +74,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ALMApril1</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ALMApril2</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ALMApril3</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ALMBuild1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -99,6 +87,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ALMBuild4</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ALMFeb1</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ALMFeb2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
