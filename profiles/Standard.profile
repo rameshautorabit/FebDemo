@@ -94,10 +94,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ALMTest1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ALMTest2</apexClass>
         <enabled>false</enabled>
     </classAccesses>
