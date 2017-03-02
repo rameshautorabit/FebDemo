@@ -10,6 +10,7 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Internal</members>
         <members>RameshComm</members>
         <members>TestCommunityTempate</members>
         <name>ManagedTopic</name>
