@@ -13,6 +13,8 @@
         <members>April26Account1</members>
         <members>CancelDeploy1</members>
         <members>CancelDeploy2</members>
+        <members>ChangePasswordController</members>
+        <members>ChangePasswordControllerTest</members>
         <members>CheckinTwoProj1</members>
         <members>CheckinTwoProj2</members>
         <members>CreatingAccount11</members>
@@ -895,6 +897,7 @@
         <members>RameshRabit__c.Testfield1__c</members>
         <members>RameshRabit__c.marchField__c</members>
         <members>TestNewFebDemo__c.SubField1__c</members>
+        <members>TestObject__c.Test1123123123__c</members>
         <members>Test__c.Hiring_Manager__c</members>
         <members>Trail__c.Description__c</members>
         <members>Trail__c.Distance__c</members>
