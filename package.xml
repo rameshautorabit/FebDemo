@@ -9,4 +9,8 @@
         <members>FirstClass1</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>RameshComm</members>
+        <name>ManagedTopic</name>
+    </types>
 </Package>
