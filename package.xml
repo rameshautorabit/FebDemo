@@ -11,6 +11,7 @@
     </types>
     <types>
         <members>RameshComm</members>
+        <members>TestCommunityTempate</members>
         <name>ManagedTopic</name>
     </types>
 </Package>
