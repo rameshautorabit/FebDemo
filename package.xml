@@ -2,6 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>AClass1</members>
+        <members>ALMAccount</members>
         <members>ALMTest2</members>
         <members>CreatingAccount11</members>
         <members>FEB21Apex1</members>
