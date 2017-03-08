@@ -3,8 +3,8 @@ public Class ALMBuild2
 //Test in March16
 public Account createAccount(String name)  
 {
-Account acc1= new Account();
-acc1.Name = name;
-return acc1;
+Account acc12= new Account();
+acc12.Name = name;
+return acc12;
 }
 }
