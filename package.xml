@@ -9,6 +9,7 @@
         <members>ALMBuild3</members>
         <members>ALMFeb1</members>
         <members>ALMFeb2</members>
+        <members>ALMMarch09Test1</members>
         <members>ALMTest2</members>
         <members>April26Account1</members>
         <members>CancelDeploy1</members>
@@ -2503,6 +2504,7 @@
         <members>agf__WorkData__c</members>
         <members>agf__eRelease_Request__c</members>
         <members>aug31obj__c</members>
+        <members>march09Test__c</members>
         <name>CustomObject</name>
     </types>
     <types>
