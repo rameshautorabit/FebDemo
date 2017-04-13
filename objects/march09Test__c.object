@@ -52,6 +52,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Test1__c</fullName>
+        <description>test</description>
+        <externalId>false</externalId>
+        <label>Test1</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
     <label>march09Test</label>
     <nameField>
         <label>march09Test Name</label>
