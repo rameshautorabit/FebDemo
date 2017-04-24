@@ -45,6 +45,7 @@
         <members>PlDepNov23Final2</members>
         <members>PlDepNov23Test1</members>
         <members>Prevalidation1</members>
+        <members>Prevalidation2</members>
         <members>RameshAccount1</members>
         <members>RamsOrgNov01</members>
         <members>RetrieveCommitTest1</members>
@@ -64,6 +65,7 @@
         <members>VOneJan03Test1</members>
         <members>VOneJan03Test2</members>
         <members>prevalidationTest1</members>
+        <members>prevalidationTest2</members>
         <name>ApexClass</name>
     </types>
     <types>
