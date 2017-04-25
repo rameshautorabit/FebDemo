@@ -509,6 +509,7 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>April11Obj__c.TestRams</members>
         <members>Metric.Completion</members>
         <members>Metric.Progress</members>
         <name>RecordType</name>

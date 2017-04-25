@@ -57,6 +57,12 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>April11Objs</pluralLabel>
+    <recordTypes>
+        <fullName>TestRams</fullName>
+        <active>true</active>
+        <description>Test</description>
+        <label>TestRams</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
