@@ -229,6 +229,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Prevalidation1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Prevalidation2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PrevalidationTest3</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>RameshAccount1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -298,6 +310,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>VOneJan03Test2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>prevalidationTest1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>prevalidationTest2</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>false</custom>
@@ -1722,6 +1742,14 @@
         <layout>April11Obj__c-April11Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>April11Obj__c-April11Obj Layout</layout>
+        <recordType>April11Obj__c.Test2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>April11Obj__c-April11Obj Layout</layout>
+        <recordType>April11Obj__c.TestRams</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1923,6 +1951,16 @@
         <apexPage>Job_Candidate_Help</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>April11Obj__c.Test2</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>April11Obj__c.TestRams</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>

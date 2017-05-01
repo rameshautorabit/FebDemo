@@ -59,7 +59,7 @@
     <pluralLabel>April11Objs</pluralLabel>
     <recordTypes>
         <fullName>Test2</fullName>
-        <active>false</active>
+        <active>true</active>
         <description>Adding description on April25</description>
         <label>Test2</label>
     </recordTypes>

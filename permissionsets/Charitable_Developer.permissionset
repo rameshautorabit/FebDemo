@@ -217,6 +217,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Prevalidation1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Prevalidation2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PrevalidationTest3</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>RameshAccount1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -288,7 +300,14 @@
         <apexClass>VOneJan03Test2</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <description>Permission Set generated for access to custom object Fundraiser for the app Charitable</description>
+    <classAccesses>
+        <apexClass>prevalidationTest1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>prevalidationTest2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <fieldPermissions>
         <editable>false</editable>
         <field>ALMsample__c.WorkItemNum__c</field>
@@ -1710,6 +1729,14 @@
         <apexPage>Job_Candidate_Help</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <recordType>April11Obj__c.Test2</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>April11Obj__c.TestRams</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
