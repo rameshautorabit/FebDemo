@@ -56,6 +56,10 @@
         <members>PlDepNov23Final2</members>
         <members>PlDepNov23Test1</members>
         <members>Prevalidation1</members>
+        <members>Prevalidation2</members>
+        <members>PrevalidationTest3</members>
+        <members>Rabit_force__AutoRabit</members>
+        <members>Rabit_force__AutoRabit_test</members>
         <members>RameshAccount1</members>
         <members>RamsOrgNov01</members>
         <members>RetrieveCommitTest1</members>
