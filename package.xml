@@ -1309,4 +1309,10 @@
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>
+    <types>
+        <members>agf__ADM_Scrum_Team_Member__c.agf__Update Record Type Copy</members>
+        <members>agf__ADM_Scrum_Team__c.agf__Set program initial section headers</members>
+        <members>agf__ADM_Scrum_Team__c.agf__Update Record Type Copy</members>
+        <name>WorkflowRule</name>
+    </types>
 </Package>
