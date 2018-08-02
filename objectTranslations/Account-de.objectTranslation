@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <workflowTasks>
+        <description>German Translation</description>
+        <name>QA</name>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Add comment For &quot;Workflow Task&quot;. --></description>
+        <name>TEst5</name>
+        <subject><!-- TEst5 --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Add Comment --></description>
+        <name>TestA</name>
+        <subject><!-- TestA --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>tasktest</name>
+        <subject><!-- tasktest --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>test</name>
+        <subject><!-- test --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>
