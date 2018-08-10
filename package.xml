@@ -88,6 +88,8 @@
         <members>RamsOrgNov01</members>
         <members>ReleaseLabel1</members>
         <members>ReleaseLabel2</members>
+        <members>ReleaseLabel3</members>
+        <members>ReleaseLabel4</members>
         <members>RetrieveCommitTest1</members>
         <members>RetrieveCommitTest2</members>
         <members>RetrieveCommitTest3</members>
