@@ -442,6 +442,7 @@
         <members>SepClass5</members>
         <members>SepClass6</members>
         <members>SepClass7</members>
+        <members>Sepo4ALM1</members>
         <members>SiteLoginController</members>
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
