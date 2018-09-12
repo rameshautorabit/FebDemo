@@ -1,0 +1,10 @@
+public Class NewClassonSep122018
+{
+public Account createAccount(String name)  //method to create account
+{
+//Test Case for Ramesh M
+Account a01= new Account();
+a01.Name = name;
+return a01;
+}
+}
