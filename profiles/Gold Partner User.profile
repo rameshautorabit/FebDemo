@@ -2569,7 +2569,7 @@
         <name>UseWebLink</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>WorkDotComUserPerm</name>
+        <enabled>false</enabled>
+        <name>WorkDotComUserPerm1</name>
     </userPermissions>
 </Profile>
