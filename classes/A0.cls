@@ -1,6 +1,6 @@
 public Class A0
 {
-//Added comment to test MergeALM1
+//Added comment to check pull request
 public Account createAccount(String name)  //method to create dfdsfdsfdsfdsfdsf
 {
 Account a01= new Account();
