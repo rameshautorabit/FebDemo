@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>40.0</version>
+    <version>48.0</version>
     <types>
         <members>A0</members>
         <members>A0001</members>
@@ -349,8 +349,6 @@
         <members>Mar20Class3</members>
         <members>Mar20Class4</members>
         <members>Mar20SaiClass7</members>
-        <members>MergeRams4</members>
-        <members>MergeRams5</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>NewBackup1</members>
@@ -444,7 +442,6 @@
         <members>SepClass7</members>
         <members>Sepo4ALM1</members>
         <members>Sepo4ALM2</members>
-        <members>Sepo4ALM3</members>
         <members>SiteLoginController</members>
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
