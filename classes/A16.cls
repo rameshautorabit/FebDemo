@@ -6,6 +6,6 @@ public Account createAccount(String name)  //method to create account
 Account a16= new Account();
 a16.Name = name;
 return a16;
-//this is the test comment
+//this is the test predated commit check
 }
 }
