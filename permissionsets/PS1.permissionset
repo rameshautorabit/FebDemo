@@ -6,7 +6,7 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>Capp50</application>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
         <apexClass>A12</apexClass>
